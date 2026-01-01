@@ -30,7 +30,7 @@ console.log(`the string  ${value} can be also written in this format!`);
 let hero = ["sahil","shyam","karan",true,false,2];
 //indexing always start from 0;
 console.log(hero[0]);
-for(let i=0;i<hero.length();i++){
+for(let i=0;i<hero.length;i++){
     console.log(hero[i]);
 }
 
