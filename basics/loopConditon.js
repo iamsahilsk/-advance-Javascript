@@ -38,3 +38,19 @@ do{
     total+=i;
     i++;
 }while(i<4);
+
+//challenge:
+
+let numbers =[2,4,6];
+let multipliedNumbers = [];
+for(let i=0;i<numbers.length;i++){
+    multipliedNumbers.push(numbers[i]*2);
+}
+console.log(multipliedNumbers);
+
+//challenge 6:
+let city =["Parish","Tokyo","London","New York"];
+let cityList =[];
+for(let i =0;i<city.length;i++){
+    cityList.push(city[i]);
+}
